@@ -12,13 +12,14 @@ import static java.awt.SystemColor.text;
  * @author Administrator
  */
 public class Record {
-
-    public String id;
-    public String name;
-    public String surname;
-    public String town;
-    public String poBox;
-    public String origin;
+    //b91, ANASTASIA, ALESANDRA , 203HALL     MAYNARD  #D,ELON,27244
+    public String id; // b91
+    public String name; //ALESANDRA
+    public String surname; // ANASTASIA
+    public String town; //ELON
+    public String poBox; // 27244
+    public String origin; //B
+    // existe uma variavel string chamado address que é 203HALL     MAYNARD
     public int evictions = 0;
     public int survivals = 0;
     public String bKey = "";

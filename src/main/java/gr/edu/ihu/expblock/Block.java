@@ -44,6 +44,7 @@ public class Block {
     }
 
     public int editDistance(String str1, String str2) {
+//        System.out.println("Chamou função editDistance");
         int[][] distance = new int[str1.length() + 1][str2.length() + 1];
 
         for (int i = 0; i <= str1.length(); i++) {
